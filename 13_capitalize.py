@@ -8,3 +8,10 @@ def capitalize(phrase):
         'Only first word'
     """
 
+    listified_phrase = list(phrase)
+
+    listified_phrase[0] = listified_phrase[0].upper()
+
+    return ''.join(listified_phrase)
+
+
